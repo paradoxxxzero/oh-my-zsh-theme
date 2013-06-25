@@ -23,7 +23,7 @@ else
     fi
     PROMPT_SECONDARY_COLOR="${PROMPT_SECONDARY_COLOR}%F{$host_sum}"
 
-    host_sum="0x$host_sum[1,2]"
+    host_sum="0x$host_sum[2,3]"
     host_sum=$(( host_sum % 12 + 1))
     if (( host_sum > 6 )); then
     host_sum=$(( host_sum - 6))
