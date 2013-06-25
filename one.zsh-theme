@@ -1,6 +1,6 @@
-local PROMPT_PRIMARY_COLOR="$fg_bold[green]"
-local PROMPT_SECONDARY_COLOR="$fg_bold[yellow]"
-local PROMPT_TERTIARY_COLOR="$fg_bold[blue]"
+PROMPT_PRIMARY_COLOR="$fg_bold[green]"
+PROMPT_SECONDARY_COLOR="$fg_bold[yellow]"
+PROMPT_TERTIARY_COLOR="$fg_bold[blue]"
 
 if [ "`id -u`" -eq 0 ];
 then
